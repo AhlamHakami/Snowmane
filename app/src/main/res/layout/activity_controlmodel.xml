@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    tools:context="com.car.ui.ControlModelActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="48px"
+        android:text="Control Model" />
+    <TableLayout
+        android:layout_marginTop="100px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="24px"
+                android:textColor="#000000"
+                android:text="" />
+            <ImageView
+                android:id="@+id/forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward"/>
+            <TextView
+                android:textColor="#000000"
+                android:textSize="24px"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/left"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left" />
+            <ImageView
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="60px"
+                android:src="@drawable/stop" />
+            <ImageView
+                android:id="@+id/right"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="24px"
+                android:textColor="#000000"
+                android:text="" />
+            <ImageView
+                android:id="@+id/backward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/backward" />
+            <TextView
+                android:textColor="#000000"
+                android:textSize="24px"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+    <Button
+        android:id="@+id/ib_back"
+        android:layout_marginBottom="160px"
+        android:layout_gravity="center"
+        android:layout_width="400px"
+        android:layout_height="100px"
+        android:background="@drawable/bg_button"
+        android:textColor="#000000"
+        android:textSize="30px"
+        android:text="Back"/>
+</LinearLayout>

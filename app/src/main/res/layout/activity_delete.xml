@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.car.ui.DeleteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="#000000"
+        android:textSize="48px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="30px" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/edit_bg"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/ib_delete"
+            android:layout_width="200px"
+            android:layout_height="60px"
+            android:layout_gravity="left"
+            android:layout_marginTop="60px"
+            android:background="@drawable/bg_button"
+            android:text="Delete"
+            android:textColor="#000000"
+            android:textSize="30px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/ib_back"
+        android:layout_width="400px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160px"
+        android:background="@drawable/bg_button"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="30px" />
+</LinearLayout>

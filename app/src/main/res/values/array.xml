@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="directions">
+        <item>forward</item>
+        <item>backward</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+</resources>
